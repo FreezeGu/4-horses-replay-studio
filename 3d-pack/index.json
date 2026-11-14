@@ -1,0 +1,504 @@
+{
+  "pack_format": "robotization-bench.3d-pack-index.v1",
+  "replay_format": "robotization-bench.replay.v1",
+  "world_id": "cell-v1",
+  "quarterly_world_id": null,
+  "quarterly_available": false,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "evaluation_seeds": [
+    11,
+    29,
+    47
+  ],
+  "runs": [
+    {
+      "id": "v1-manual-seed11",
+      "mode": "v1",
+      "strategy": "manual",
+      "label": "manual",
+      "seed": 11,
+      "bundle_dir": "v1-manual-seed11",
+      "manifest": "v1-manual-seed11/manifest.json",
+      "events": "v1-manual-seed11/events.jsonl",
+      "event_count": 2389,
+      "summary": {
+        "total": 166,
+        "good": 166,
+        "on_time": 166,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 4185,
+        "purchase": 0,
+        "total_cost": 93274
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 1,
+        "reward_den": 5,
+        "metrics": {
+          "good": 510,
+          "on_time": 504,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 0,
+          "pack_finished": 513,
+          "labor_ticks": 12871,
+          "orders": 510,
+          "total_cost": 281886,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 0
+        },
+        "reasons": [
+          "cost",
+          "labor",
+          "automation"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-candidate-seed11",
+      "mode": "v1",
+      "strategy": "candidate",
+      "label": "candidate",
+      "seed": 11,
+      "bundle_dir": "v1-candidate-seed11",
+      "manifest": "v1-candidate-seed11/manifest.json",
+      "events": "v1-candidate-seed11/events.jsonl",
+      "event_count": 2360,
+      "summary": {
+        "total": 166,
+        "good": 166,
+        "on_time": 166,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 2747,
+        "purchase": 1530000,
+        "total_cost": 82830
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 207139,
+        "reward_den": 704715,
+        "metrics": {
+          "good": 510,
+          "on_time": 510,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 372,
+          "pack_finished": 514,
+          "labor_ticks": 8709,
+          "orders": 510,
+          "total_cost": 248788,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-reference-seed11",
+      "mode": "v1",
+      "strategy": "reference",
+      "label": "reference",
+      "seed": 11,
+      "bundle_dir": "v1-reference-seed11",
+      "manifest": "v1-reference-seed11/manifest.json",
+      "events": "v1-reference-seed11/events.jsonl",
+      "event_count": 2388,
+      "summary": {
+        "total": 166,
+        "good": 166,
+        "on_time": 166,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 2805,
+        "purchase": 1530000,
+        "total_cost": 67630
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 293219,
+        "reward_den": 704715,
+        "metrics": {
+          "good": 510,
+          "on_time": 502,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 372,
+          "pack_finished": 514,
+          "labor_ticks": 8841,
+          "orders": 510,
+          "total_cost": 205748,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-manual-seed29",
+      "mode": "v1",
+      "strategy": "manual",
+      "label": "manual",
+      "seed": 29,
+      "bundle_dir": "v1-manual-seed29",
+      "manifest": "v1-manual-seed29/manifest.json",
+      "events": "v1-manual-seed29/events.jsonl",
+      "event_count": 2499,
+      "summary": {
+        "total": 174,
+        "good": 174,
+        "on_time": 168,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 4398,
+        "purchase": 0,
+        "total_cost": 95372
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 1,
+        "reward_den": 5,
+        "metrics": {
+          "good": 510,
+          "on_time": 504,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 0,
+          "pack_finished": 513,
+          "labor_ticks": 12871,
+          "orders": 510,
+          "total_cost": 281886,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 0
+        },
+        "reasons": [
+          "cost",
+          "labor",
+          "automation"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-candidate-seed29",
+      "mode": "v1",
+      "strategy": "candidate",
+      "label": "candidate",
+      "seed": 29,
+      "bundle_dir": "v1-candidate-seed29",
+      "manifest": "v1-candidate-seed29/manifest.json",
+      "events": "v1-candidate-seed29/events.jsonl",
+      "event_count": 2492,
+      "summary": {
+        "total": 174,
+        "good": 174,
+        "on_time": 174,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 3030,
+        "purchase": 1530000,
+        "total_cost": 83056
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 207139,
+        "reward_den": 704715,
+        "metrics": {
+          "good": 510,
+          "on_time": 510,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 372,
+          "pack_finished": 514,
+          "labor_ticks": 8709,
+          "orders": 510,
+          "total_cost": 248788,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-reference-seed29",
+      "mode": "v1",
+      "strategy": "reference",
+      "label": "reference",
+      "seed": 29,
+      "bundle_dir": "v1-reference-seed29",
+      "manifest": "v1-reference-seed29/manifest.json",
+      "events": "v1-reference-seed29/events.jsonl",
+      "event_count": 2505,
+      "summary": {
+        "total": 174,
+        "good": 174,
+        "on_time": 166,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 3058,
+        "purchase": 1530000,
+        "total_cost": 70416
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 293219,
+        "reward_den": 704715,
+        "metrics": {
+          "good": 510,
+          "on_time": 502,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 372,
+          "pack_finished": 514,
+          "labor_ticks": 8841,
+          "orders": 510,
+          "total_cost": 205748,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-manual-seed47",
+      "mode": "v1",
+      "strategy": "manual",
+      "label": "manual",
+      "seed": 47,
+      "bundle_dir": "v1-manual-seed47",
+      "manifest": "v1-manual-seed47/manifest.json",
+      "events": "v1-manual-seed47/events.jsonl",
+      "event_count": 2443,
+      "summary": {
+        "total": 170,
+        "good": 170,
+        "on_time": 170,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 4288,
+        "purchase": 0,
+        "total_cost": 93240
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 1,
+        "reward_den": 5,
+        "metrics": {
+          "good": 510,
+          "on_time": 504,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 0,
+          "pack_finished": 513,
+          "labor_ticks": 12871,
+          "orders": 510,
+          "total_cost": 281886,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 0
+        },
+        "reasons": [
+          "cost",
+          "labor",
+          "automation"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-candidate-seed47",
+      "mode": "v1",
+      "strategy": "candidate",
+      "label": "candidate",
+      "seed": 47,
+      "bundle_dir": "v1-candidate-seed47",
+      "manifest": "v1-candidate-seed47/manifest.json",
+      "events": "v1-candidate-seed47/events.jsonl",
+      "event_count": 2428,
+      "summary": {
+        "total": 170,
+        "good": 170,
+        "on_time": 170,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 2932,
+        "purchase": 1530000,
+        "total_cost": 82902
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 207139,
+        "reward_den": 704715,
+        "metrics": {
+          "good": 510,
+          "on_time": 510,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 372,
+          "pack_finished": 514,
+          "labor_ticks": 8709,
+          "orders": 510,
+          "total_cost": 248788,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "id": "v1-reference-seed47",
+      "mode": "v1",
+      "strategy": "reference",
+      "label": "reference",
+      "seed": 47,
+      "bundle_dir": "v1-reference-seed47",
+      "manifest": "v1-reference-seed47/manifest.json",
+      "events": "v1-reference-seed47/events.jsonl",
+      "event_count": 2450,
+      "summary": {
+        "total": 170,
+        "good": 170,
+        "on_time": 170,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "labor_ticks": 2978,
+        "purchase": 1530000,
+        "total_cost": 67702
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 293219,
+        "reward_den": 704715,
+        "metrics": {
+          "good": 510,
+          "on_time": 502,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 372,
+          "pack_finished": 514,
+          "labor_ticks": 8841,
+          "orders": 510,
+          "total_cost": 205748,
+          "base_cost": 281886,
+          "base_labor_ticks": 12871,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "v1-manual-vs-reference-seed11",
+      "mode": "v1",
+      "seed": 11,
+      "left": "v1-manual-seed11",
+      "right": "v1-reference-seed11"
+    },
+    {
+      "id": "v1-manual-vs-reference-seed29",
+      "mode": "v1",
+      "seed": 29,
+      "left": "v1-manual-seed29",
+      "right": "v1-reference-seed29"
+    },
+    {
+      "id": "v1-manual-vs-reference-seed47",
+      "mode": "v1",
+      "seed": 47,
+      "left": "v1-manual-seed47",
+      "right": "v1-reference-seed47"
+    }
+  ]
+}
